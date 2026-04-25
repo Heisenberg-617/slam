@@ -43,6 +43,7 @@ setup(
             'fake_hardware = robot_hardware.fake_hardware:main',
             'serial_monitor = robot_hardware.serial_monitor:main',
             'odom_simulator = robot_hardware.odom_simulator:main',
+            'nav_goal_receiver = robot_hardware.nav_goal_receiver:main',
         ],
     },
 )
