@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing robot_hardware.egg-info/PKG-INFO
+writing dependency_links to robot_hardware.egg-info/dependency_links.txt
+writing entry points to robot_hardware.egg-info/entry_points.txt
+writing requirements to robot_hardware.egg-info/requires.txt
+writing top-level names to robot_hardware.egg-info/top_level.txt
+reading manifest file 'robot_hardware.egg-info/SOURCES.txt'
+writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages/robot-hardware.egg-link (link to .)
+Installing cmd_vel_to_arduino script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing encoder_odometry script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing fake_hardware script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing serial_monitor script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+
+Installed /home/utilisateur/slam/test/build/robot_hardware
+running symlink_data
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/resource/robot_hardware -> /home/utilisateur/slam/test/install/robot_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/package.xml -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/launch/real_robot_nav.launch.py -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/launch
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/launch/test_nav.launch.py -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/launch
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/config/hardware_params.yaml -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/config
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/config/nav2_real_params.yaml -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/config
+symbolically linking /home/utilisateur/slam/test/build/robot_hardware/rviz/real_nav.rviz -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/rviz

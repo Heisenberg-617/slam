@@ -1,0 +1,20 @@
+[0.741s] Invoking command in '/home/utilisateur/slam/test/build/robot_hardware': AMENT_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description PYTHONPATH=/home/utilisateur/slam/test/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/utilisateur/slam/test/build/robot_hardware/build --no-deps symlink_data
+[1.052s] running develop
+[1.204s] running egg_info
+[1.204s] writing robot_hardware.egg-info/PKG-INFO
+[1.204s] writing dependency_links to robot_hardware.egg-info/dependency_links.txt
+[1.204s] writing entry points to robot_hardware.egg-info/entry_points.txt
+[1.205s] writing requirements to robot_hardware.egg-info/requires.txt
+[1.205s] writing top-level names to robot_hardware.egg-info/top_level.txt
+[1.207s] reading manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[1.208s] writing manifest file 'robot_hardware.egg-info/SOURCES.txt'
+[1.209s] running build_ext
+[1.210s] Creating /home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages/robot-hardware.egg-link (link to .)
+[1.213s] Installing cmd_vel_to_arduino script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+[1.213s] Installing encoder_odometry script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+[1.213s] Installing fake_hardware script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+[1.213s] Installing serial_monitor script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+[1.213s] 
+[1.213s] Installed /home/utilisateur/slam/test/build/robot_hardware
+[1.213s] running symlink_data
+[1.251s] Invoked command in '/home/utilisateur/slam/test/build/robot_hardware' returned '0': AMENT_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description PYTHONPATH=/home/utilisateur/slam/test/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/utilisateur/slam/test/build/robot_hardware/build --no-deps symlink_data

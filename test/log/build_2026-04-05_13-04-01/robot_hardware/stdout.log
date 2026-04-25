@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/robot_hardware/robot_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_hardware/robot_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_hardware/robot_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/robot_hardware/robot_hardware.egg-info/requires.txt
+writing top-level names to ../../build/robot_hardware/robot_hardware.egg-info/top_level.txt
+reading manifest file '../../build/robot_hardware/robot_hardware.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_hardware/robot_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/real_robot_nav.launch.py -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/launch
+running install_egg_info
+removing '/home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages/robot_hardware-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_hardware/robot_hardware.egg-info to /home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages/robot_hardware-0.0.1-py3.10.egg-info
+running install_scripts
+Installing cmd_vel_to_arduino script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing encoder_odometry script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing fake_hardware script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing odom_simulator script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+Installing serial_monitor script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware
+writing list of installed files to '/home/utilisateur/slam/test/build/robot_hardware/install.log'

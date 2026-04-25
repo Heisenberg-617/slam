@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/utilisateur/slam/test/build/robot_navigation2': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/test/install/robot_navigation2
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.368s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.563s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.681s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.683s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.782s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.783s] -- Added test 'lint_cmake' to check CMake code style
+[0.784s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.786s] -- Added test 'xmllint' to check XML markup files
+[0.787s] -- Configuring done
+[0.791s] -- Generating done
+[0.794s] -- Build files have been written to: /home/utilisateur/slam/test/build/robot_navigation2
+[0.799s] Invoked command in '/home/utilisateur/slam/test/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/test/install/robot_navigation2
+[0.800s] Invoking command in '/home/utilisateur/slam/test/build/robot_navigation2': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/test/build/robot_navigation2 -- -j4 -l4
+[0.847s] Invoked command in '/home/utilisateur/slam/test/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/test/build/robot_navigation2 -- -j4 -l4
+[0.849s] Invoking command in '/home/utilisateur/slam/test/build/robot_navigation2': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --install /home/utilisateur/slam/test/build/robot_navigation2
+[0.857s] -- Install configuration: ""
+[0.857s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch
+[0.858s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch/navigation_minimal.launch.py
+[0.858s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch/nav2.launch.py
+[0.858s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch/navigation_complete.launch.py
+[0.858s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch/run_simulation.launch.py
+[0.858s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch/simple_nav2.launch.py
+[0.858s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/launch/localization_simple.launch.py
+[0.859s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/config
+[0.859s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/config/nav2_params.yaml
+[0.859s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/rviz
+[0.859s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/rviz/nav2_config.rviz
+[0.860s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/ament_index/resource_index/package_run_dependencies/robot_navigation2
+[0.860s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/ament_index/resource_index/parent_prefix_path/robot_navigation2
+[0.860s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.sh
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.dsv
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/environment/path.sh
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/environment/path.dsv
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/local_setup.bash
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/local_setup.sh
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/local_setup.zsh
+[0.861s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/local_setup.dsv
+[0.862s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/package.dsv
+[0.862s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/ament_index/resource_index/packages/robot_navigation2
+[0.862s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config.cmake
+[0.862s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config-version.cmake
+[0.862s] -- Installing: /home/utilisateur/slam/test/install/robot_navigation2/share/robot_navigation2/package.xml
+[0.865s] Invoked command in '/home/utilisateur/slam/test/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --install /home/utilisateur/slam/test/build/robot_navigation2

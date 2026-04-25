@@ -1,0 +1,33 @@
+[0.820s] Invoking command in '/home/utilisateur/slam/test/src/robot_navigation': PYTHONPATH=/home/utilisateur/slam/test/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_navigation build --build-base /home/utilisateur/slam/test/build/robot_navigation/build install --record /home/utilisateur/slam/test/build/robot_navigation/install.log --single-version-externally-managed install_data
+[1.150s] running egg_info
+[1.151s] creating ../../build/robot_navigation/robot_navigation.egg-info
+[1.151s] writing ../../build/robot_navigation/robot_navigation.egg-info/PKG-INFO
+[1.151s] writing dependency_links to ../../build/robot_navigation/robot_navigation.egg-info/dependency_links.txt
+[1.151s] writing entry points to ../../build/robot_navigation/robot_navigation.egg-info/entry_points.txt
+[1.152s] writing requirements to ../../build/robot_navigation/robot_navigation.egg-info/requires.txt
+[1.152s] writing top-level names to ../../build/robot_navigation/robot_navigation.egg-info/top_level.txt
+[1.152s] writing manifest file '../../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[1.155s] reading manifest file '../../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[1.156s] writing manifest file '../../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.156s] creating /home/utilisateur/slam/test/build/robot_navigation/build
+[1.157s] creating /home/utilisateur/slam/test/build/robot_navigation/build/lib
+[1.157s] creating /home/utilisateur/slam/test/build/robot_navigation/build/lib/robot_navigation
+[1.157s] copying robot_navigation/__init__.py -> /home/utilisateur/slam/test/build/robot_navigation/build/lib/robot_navigation
+[1.157s] running install
+[1.157s] running install_lib
+[1.158s] creating /home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[1.158s] copying /home/utilisateur/slam/test/build/robot_navigation/build/lib/robot_navigation/__init__.py -> /home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[1.159s] byte-compiling /home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages/robot_navigation/__init__.py to __init__.cpython-310.pyc
+[1.159s] running install_data
+[1.159s] creating /home/utilisateur/slam/test/install/robot_navigation/share/ament_index
+[1.160s] creating /home/utilisateur/slam/test/install/robot_navigation/share/ament_index/resource_index
+[1.160s] creating /home/utilisateur/slam/test/install/robot_navigation/share/ament_index/resource_index/packages
+[1.160s] copying resource/robot_navigation -> /home/utilisateur/slam/test/install/robot_navigation/share/ament_index/resource_index/packages
+[1.160s] copying package.xml -> /home/utilisateur/slam/test/install/robot_navigation/share/robot_navigation
+[1.160s] running install_egg_info
+[1.163s] Copying ../../build/robot_navigation/robot_navigation.egg-info to /home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages/robot_navigation-0.0.0-py3.10.egg-info
+[1.164s] running install_scripts
+[1.188s] writing list of installed files to '/home/utilisateur/slam/test/build/robot_navigation/install.log'
+[1.220s] Invoked command in '/home/utilisateur/slam/test/src/robot_navigation' returned '0': PYTHONPATH=/home/utilisateur/slam/test/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_navigation build --build-base /home/utilisateur/slam/test/build/robot_navigation/build install --record /home/utilisateur/slam/test/build/robot_navigation/install.log --single-version-externally-managed install_data

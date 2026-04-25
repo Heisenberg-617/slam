@@ -1,0 +1,4 @@
+Invoking command in '/home/mohamed/test/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mohamed/test/build/robot_description --clean-first -- -j4 -l4
+Invoked command in '/home/mohamed/test/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mohamed/test/build/robot_description --clean-first -- -j4 -l4
+Invoking command in '/home/mohamed/test/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mohamed/test/build/robot_description
+Invoked command in '/home/mohamed/test/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mohamed/test/build/robot_description

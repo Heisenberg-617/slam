@@ -1,0 +1,36 @@
+# =============================================================================
+# Hardware Parameters for Real Robot
+# =============================================================================
+# Values taken from the existing Arduino motor controller code.
+# Baud rate, wheel geometry, and encoder specs match the Arduino exactly.
+
+cmd_vel_to_arduino:
+  ros__parameters:
+    # Serial connection to Arduino Mega
+    serial_port: "/dev/ttyUSB0"
+    baud_rate: 57600               # Must match Arduino Serial.begin(57600)
+
+    # Safety
+    cmd_vel_timeout: 0.5           # Seconds before sending M0:0 stop
+    publish_rate: 20.0             # Hz for sending commands to Arduino
+
+    # Encoder output topic (published by this node from Arduino serial data)
+    encoder_publish_topic: "/encoder_ticks"
+
+encoder_odometry:
+  ros__parameters:
+    # Encoder input topic (matches cmd_vel_to_arduino output)
+    encoder_topic: "/encoder_ticks"
+
+    # Robot geometry (from Arduino: RAYON_ROUE=0.10, ENTRAXE=0.488)
+    wheel_separation: 0.488        # meters between wheel centers
+    wheel_radius: 0.10             # meters
+
+    # Encoder specs (from Arduino: resolution=64, rapport_reducteur=131)
+    # With CHANGE interrupt on both A and B channels = full quadrature (4x)
+    # Ticks per output shaft revolution = 64 * 131 = 8384
+    ticks_per_revolution: 8384
+
+    # TF frame names
+    odom_frame: "odom"
+    base_frame: "base_footprint"

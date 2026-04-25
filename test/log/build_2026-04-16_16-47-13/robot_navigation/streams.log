@@ -1,0 +1,18 @@
+[1.598s] Invoking command in '/home/utilisateur/slam/test/build/robot_navigation': PYTHONPATH=/home/utilisateur/slam/test/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/utilisateur/slam/test/build/robot_navigation/build --no-deps symlink_data --force
+[2.139s] running develop
+[2.401s] running egg_info
+[2.402s] writing robot_navigation.egg-info/PKG-INFO
+[2.402s] writing dependency_links to robot_navigation.egg-info/dependency_links.txt
+[2.402s] writing entry points to robot_navigation.egg-info/entry_points.txt
+[2.402s] writing requirements to robot_navigation.egg-info/requires.txt
+[2.403s] writing top-level names to robot_navigation.egg-info/top_level.txt
+[2.407s] reading manifest file 'robot_navigation.egg-info/SOURCES.txt'
+[2.409s] writing manifest file 'robot_navigation.egg-info/SOURCES.txt'
+[2.410s] running build_ext
+[2.412s] Creating /home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages/robot-navigation.egg-link (link to .)
+[2.412s] 
+[2.412s] Installed /home/utilisateur/slam/test/build/robot_navigation
+[2.412s] running symlink_data
+[2.413s] symbolically linking /home/utilisateur/slam/test/build/robot_navigation/resource/robot_navigation -> /home/utilisateur/slam/test/install/robot_navigation/share/ament_index/resource_index/packages
+[2.414s] symbolically linking /home/utilisateur/slam/test/build/robot_navigation/package.xml -> /home/utilisateur/slam/test/install/robot_navigation/share/robot_navigation
+[2.453s] Invoked command in '/home/utilisateur/slam/test/build/robot_navigation' returned '0': PYTHONPATH=/home/utilisateur/slam/test/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/utilisateur/slam/test/build/robot_navigation/build --no-deps symlink_data --force

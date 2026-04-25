@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000888] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.001023] (-) JobUnselected: {'identifier': 'robot_navigation2'}
+[0.001072] (-) JobUnselected: {'identifier': 'robot_simulation'}
+[0.001119] (robot_hardware) JobQueued: {'identifier': 'robot_hardware', 'dependencies': OrderedDict([('robot_description', '/home/utilisateur/slam/test/install/robot_description')])}
+[0.001169] (robot_hardware) JobStarted: {'identifier': 'robot_hardware'}
+[0.099513] (-) TimerEvent: {}
+[0.199839] (-) TimerEvent: {}
+[0.300015] (-) TimerEvent: {}
+[0.400226] (-) TimerEvent: {}
+[0.501391] (-) TimerEvent: {}
+[0.601644] (-) TimerEvent: {}
+[0.701850] (-) TimerEvent: {}
+[0.802065] (-) TimerEvent: {}
+[0.894595] (robot_hardware) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/utilisateur/slam/test/build/robot_hardware/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/utilisateur/slam/test/build/robot_hardware', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/utilisateur', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'utilisateur', 'LC_TIME': 'ar_MA.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"fr-fr","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/utilisateur', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/utilisateur/slam/test', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': '*.azureedge.net', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-5b29f238-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_MA.UTF-8', 'MANAGERPID': '921', 'SYSTEMD_EXEC_PID': '1208', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6505', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'COLCON_PREFIX_PATH': '/home/utilisateur/slam/test/install:/home/utilisateur/ldlidar_ros_ws/install:/home/utilisateur/ld06_reel_plateforme_mobile/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'utilisateur', 'JOURNAL_STREAM': '8:11309', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'utilisateur', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/usr/share/antigravity/resources/app', 'PATH': '/home/utilisateur/.local/bin:/opt/ros/humble/bin:/home/utilisateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/utilisateur-ThinkCentre-M710q:@/tmp/.ICE-unix/1184,unix/utilisateur-ThinkCentre-M710q:/tmp/.ICE-unix/1184', 'INVOCATION_ID': '217c0f0325544a8592b247ae96d8af82', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_MA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_MA.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/utilisateur/ldlidar_ros_ws/install/ldlidar_stl_ros2:/home/utilisateur/ldlidar_ros_ws/install/guide:/home/utilisateur/ld06_reel_plateforme_mobile/install/ldlidar_stl_ros2:/home/utilisateur/slam/test/install/robot_navigation2:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation:/home/utilisateur/slam/test/install/robot_hardware:/home/utilisateur/slam/test/install/robot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_MA.UTF-8', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_MA.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_MA.UTF-8', 'QT_IM_MODULE': 'ibus', 'ANTIGRAVITY_TRAJECTORY_ID': '414254ab-fc1f-4844-b49e-0e1d396ecac8', 'PWD': '/home/utilisateur/slam/test/build/robot_hardware', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/utilisateur/.config/Antigravity/CachedData/497c5f20052b4227f87cf8e71e2a9328ca9a6b66', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/utilisateur/slam/test/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages:/home/utilisateur/ldlidar_ros_ws/install/guide/lib/python3.10/site-packages:/home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages:/home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_MA.UTF-8', 'LC_PAPER': 'ar_MA.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/ldlidar_ros_ws/install/ldlidar_stl_ros2:/home/utilisateur/ld06_reel_plateforme_mobile/install/ldlidar_stl_ros2:/home/utilisateur/slam/test/install/robot_navigation2:/home/utilisateur/slam/test/install/robot_simulation', 'VSCODE_PID': '6505'}, 'shell': False}
+[0.902163] (-) TimerEvent: {}
+[1.002379] (-) TimerEvent: {}
+[1.102557] (-) TimerEvent: {}
+[1.202735] (-) TimerEvent: {}
+[1.277731] (robot_hardware) StdoutLine: {'line': b'running develop\n'}
+[1.305741] (-) TimerEvent: {}
+[1.405916] (-) TimerEvent: {}
+[1.506095] (-) TimerEvent: {}
+[1.567991] (robot_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[1.569227] (robot_hardware) StdoutLine: {'line': b'writing robot_hardware.egg-info/PKG-INFO\n'}
+[1.569348] (robot_hardware) StdoutLine: {'line': b'writing dependency_links to robot_hardware.egg-info/dependency_links.txt\n'}
+[1.569424] (robot_hardware) StdoutLine: {'line': b'writing entry points to robot_hardware.egg-info/entry_points.txt\n'}
+[1.569493] (robot_hardware) StdoutLine: {'line': b'writing requirements to robot_hardware.egg-info/requires.txt\n'}
+[1.569560] (robot_hardware) StdoutLine: {'line': b'writing top-level names to robot_hardware.egg-info/top_level.txt\n'}
+[1.571158] (robot_hardware) StdoutLine: {'line': b"reading manifest file 'robot_hardware.egg-info/SOURCES.txt'\n"}
+[1.573277] (robot_hardware) StdoutLine: {'line': b"writing manifest file 'robot_hardware.egg-info/SOURCES.txt'\n"}
+[1.575703] (robot_hardware) StdoutLine: {'line': b'running build_ext\n'}
+[1.576350] (robot_hardware) StdoutLine: {'line': b'Creating /home/utilisateur/slam/test/install/robot_hardware/lib/python3.10/site-packages/robot-hardware.egg-link (link to .)\n'}
+[1.577058] (robot_hardware) StdoutLine: {'line': b'Installing cmd_vel_to_arduino script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware\n'}
+[1.577290] (robot_hardware) StdoutLine: {'line': b'Installing encoder_odometry script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware\n'}
+[1.577455] (robot_hardware) StdoutLine: {'line': b'Installing fake_hardware script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware\n'}
+[1.577664] (robot_hardware) StdoutLine: {'line': b'Installing odom_simulator script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware\n'}
+[1.578246] (robot_hardware) StdoutLine: {'line': b'Installing serial_monitor script to /home/utilisateur/slam/test/install/robot_hardware/lib/robot_hardware\n'}
+[1.580699] (robot_hardware) StdoutLine: {'line': b'\n'}
+[1.580798] (robot_hardware) StdoutLine: {'line': b'Installed /home/utilisateur/slam/test/build/robot_hardware\n'}
+[1.580871] (robot_hardware) StdoutLine: {'line': b'running symlink_data\n'}
+[1.580941] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/resource/robot_hardware -> /home/utilisateur/slam/test/install/robot_hardware/share/ament_index/resource_index/packages\n'}
+[1.581014] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/package.xml -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware\n'}
+[1.581085] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/launch/real_robot_nav.launch.py -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/launch\n'}
+[1.581154] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/launch/sim_nav.launch.py -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/launch\n'}
+[1.581221] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/launch/test_nav.launch.py -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/launch\n'}
+[1.581289] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/config/hardware_params.yaml -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/config\n'}
+[1.581356] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/config/nav2_real_params.yaml -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/config\n'}
+[1.581424] (robot_hardware) StdoutLine: {'line': b'symbolically linking /home/utilisateur/slam/test/build/robot_hardware/rviz/real_nav.rviz -> /home/utilisateur/slam/test/install/robot_hardware/share/robot_hardware/rviz\n'}
+[1.606216] (-) TimerEvent: {}
+[1.616763] (robot_hardware) CommandEnded: {'returncode': 0}
+[1.639693] (robot_hardware) JobEnded: {'identifier': 'robot_hardware', 'rc': 0}
+[1.640278] (-) EventReactorShutdown: {}

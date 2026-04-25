@@ -1,0 +1,6 @@
+Invoking command in '/home/mohamed/test/build/robot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mohamed/test/src/robot_simulation -DCMAKE_INSTALL_PREFIX=/home/mohamed/test/install/robot_simulation
+Invoked command in '/home/mohamed/test/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mohamed/test/src/robot_simulation -DCMAKE_INSTALL_PREFIX=/home/mohamed/test/install/robot_simulation
+Invoking command in '/home/mohamed/test/build/robot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/test/build/robot_simulation -- -j4 -l4
+Invoked command in '/home/mohamed/test/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/test/build/robot_simulation -- -j4 -l4
+Invoking command in '/home/mohamed/test/build/robot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/test/build/robot_simulation
+Invoked command in '/home/mohamed/test/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/test/build/robot_simulation

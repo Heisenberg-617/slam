@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing robot_navigation.egg-info/PKG-INFO
+writing dependency_links to robot_navigation.egg-info/dependency_links.txt
+writing entry points to robot_navigation.egg-info/entry_points.txt
+writing requirements to robot_navigation.egg-info/requires.txt
+writing top-level names to robot_navigation.egg-info/top_level.txt
+reading manifest file 'robot_navigation.egg-info/SOURCES.txt'
+writing manifest file 'robot_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/utilisateur/slam/test/install/robot_navigation/lib/python3.10/site-packages/robot-navigation.egg-link (link to .)
+
+Installed /home/utilisateur/slam/test/build/robot_navigation
+running symlink_data
+symbolically linking /home/utilisateur/slam/test/build/robot_navigation/resource/robot_navigation -> /home/utilisateur/slam/test/install/robot_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/utilisateur/slam/test/build/robot_navigation/package.xml -> /home/utilisateur/slam/test/install/robot_navigation/share/robot_navigation

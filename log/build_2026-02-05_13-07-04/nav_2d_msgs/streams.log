@@ -1,0 +1,114 @@
+[0.024s] Invoking command in '/home/utilisateur/slam/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/install/nav_2d_msgs
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.579s] -- Detecting CXX compiler ABI info - done
+[0.614s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.614s] -- Detecting CXX compile features
+[0.614s] -- Detecting CXX compile features - done
+[0.622s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.936s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.239s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.256s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.275s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.445s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.967s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.114s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.174s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.175s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.222s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.222s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.222s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.222s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.259s] -- Found PythonExtra: .so  
+[3.380s] -- Configuring done
+[3.464s] -- Generating done
+[3.483s] -- Build files have been written to: /home/utilisateur/slam/build/nav_2d_msgs
+[3.501s] Invoked command in '/home/utilisateur/slam/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/install/nav_2d_msgs
+[3.502s] Invoking command in '/home/utilisateur/slam/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/build/nav_2d_msgs -- -j4 -l4
+[3.578s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.610s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.626s] [  2%] Built target ament_cmake_python_copy_nav_2d_msgs
+[4.326s] running egg_info
+[4.328s] creating nav_2d_msgs.egg-info
+[4.329s] writing nav_2d_msgs.egg-info/PKG-INFO
+[4.334s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[4.334s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[4.334s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[4.342s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[4.342s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[4.452s] [  2%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[4.658s] gmake[2]: *** Suppression du fichier « rosidl_generator_cpp/nav_2d_msgs/msg/path2_d.hpp »
+[4.658s] gmake[2]: *** Suppression du fichier « rosidl_generator_c/nav_2d_msgs/msg/path2_d.h »
+[4.660s] Traceback (most recent call last):
+[4.664s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[4.664s]     sys.exit(main())
+[4.670s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[4.672s]     generate_cpp(args.generator_arguments_file)
+[4.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+[4.672s]     return generate_files(
+[4.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[4.672s]     idl_file = parse_idl_file(locator)
+[4.672s] Traceback (most recent call last):
+[4.672s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[4.672s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[4.672s]     sys.exit(main())
+[4.673s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[4.673s]     generate_c(args.generator_arguments_file)
+[4.673s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[4.675s]     content = parse_idl_string(string, png_file=png_file)
+[4.675s]     return generate_files(
+[4.675s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[4.676s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[4.676s]     expand_template(
+[4.676s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[4.676s]     interpreter.string(template_content, template_path, locals=data)
+[4.676s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[4.676s]     tree = get_ast_from_idl_string(idl_string)
+[4.676s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[4.676s]     return _parser.parse(idl_string)
+[4.676s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[4.676s]     self.safe(scanner, True, locals)
+[4.676s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[4.676s]     self.parse(scanner, locals)
+[4.676s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[4.676s]     return self.parser.parse(text, start=start, on_error=on_error)
+[4.676s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[4.677s]     return self.parser.parse(stream, chosen_start, **kw)
+[4.677s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[4.677s]     token.run(self, locals)
+[4.677s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[4.677s]     interpreter.execute(self.code, locals)
+[4.677s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[4.677s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[4.677s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 146, in _parse
+[4.677s]     _exec(statements, self.globals, locals)
+[4.677s]   File "<string>", line 2, in <module>
+[4.677s]   File "<frozen importlib._bootstrap>", line 1053, in _handle_fromlist
+[4.677s] KeyboardInterrupt
+[4.677s]     to_scan = scan(i, to_scan)
+[4.677s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 104, in scan
+[4.677s]     new_item.node.add_family(new_item.s, item.rule, new_item.start, item.node, token_node)
+[4.678s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 63, in add_family
+[4.678s]     def add_family(self, lr0, rule, start, left, right):
+[4.678s] KeyboardInterrupt
+[4.680s] Exception ignored in: <function Interpreter.__del__ at 0x786beeae3be0>
+[4.680s] Traceback (most recent call last):
+[4.681s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[4.681s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[4.681s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[4.681s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[4.681s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[4.693s] gmake[2]: *** [CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/build.make:156: rosidl_generator_c/nav_2d_msgs/msg/path2_d.h] Interrompre
+[4.694s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/all] Interrompre
+[4.696s] gmake[2]: *** [CMakeFiles/nav_2d_msgs__cpp.dir/build.make:187: rosidl_generator_cpp/nav_2d_msgs/msg/path2_d.hpp] Interrompre
+[4.696s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/nav_2d_msgs__cpp.dir/all] Interrompre
+[4.696s] gmake: *** [Makefile:146: all] Interrompre

@@ -1,0 +1,1 @@
+/home/utilisateur/slam/test/src/robot_navigation2/launch/nav2.launch.py

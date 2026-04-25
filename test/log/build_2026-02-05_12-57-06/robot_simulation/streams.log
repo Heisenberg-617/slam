@@ -1,0 +1,6 @@
+[0.035s] Invoking command in '/home/utilisateur/slam/test/build/robot_simulation': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/test/build/robot_simulation -- -j4 -l4
+[0.069s] [0mCMake Error: The current CMakeCache.txt directory /home/utilisateur/slam/test/build/robot_simulation/CMakeCache.txt is different than the directory /home/mohamed/test/build/robot_simulation where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.108s] [0mCMake Error: The source directory "/home/mohamed/test/src/robot_simulation" does not exist.
+[0.108s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.111s] gmake: *** [Makefile:226 : cmake_check_build_system] Erreur 1
+[0.115s] Invoked command in '/home/utilisateur/slam/test/build/robot_simulation' returned '2': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/test/build/robot_simulation -- -j4 -l4

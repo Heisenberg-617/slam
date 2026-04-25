@@ -1,0 +1,6 @@
+Invoking command in '/home/utilisateur/slam/build/robot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/install/robot_navigation2
+Invoked command in '/home/utilisateur/slam/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/install/robot_navigation2
+Invoking command in '/home/utilisateur/slam/build/robot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/build/robot_navigation2 -- -j4 -l4
+Invoked command in '/home/utilisateur/slam/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/build/robot_navigation2 -- -j4 -l4
+Invoking command in '/home/utilisateur/slam/build/robot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/utilisateur/slam/build/robot_navigation2
+Invoked command in '/home/utilisateur/slam/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/utilisateur/slam/build/robot_navigation2

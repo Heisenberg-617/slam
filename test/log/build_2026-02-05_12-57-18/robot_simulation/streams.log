@@ -1,0 +1,143 @@
+[0.027s] Invoking command in '/home/utilisateur/slam/test/build/robot_simulation': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_simulation -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/test/install/robot_simulation
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.349s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.578s] -- Detecting C compiler ABI info - done
+[0.606s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.607s] -- Detecting C compile features
+[0.608s] -- Detecting C compile features - done
+[0.616s] -- Detecting CXX compiler ABI info
+[0.859s] -- Detecting CXX compiler ABI info - done
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.882s] -- Detecting CXX compile features
+[0.882s] -- Detecting CXX compile features - done
+[0.891s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.345s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.629s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.749s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.763s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.785s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.969s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.973s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.214s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.279s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.401s] -- Looking for pthread.h
+[2.667s] -- Looking for pthread.h - found
+[2.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.906s] -- Found Threads: TRUE  
+[3.095s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.098s] -- Checking for module 'bullet>=2.82'
+[3.138s] --   Found bullet, version 3.05
+[3.444s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.588s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.634s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.707s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.745s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.760s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.775s] -- Searching for dependencies of ignition-math6
+[3.777s] -- Looking for OGRE...
+[3.777s] -- OGRE_PREFIX_WATCH changed.
+[3.789s] -- Checking for module 'OGRE'
+[3.828s] --   Found OGRE, version 1.9.0
+[3.924s] -- Found Ogre Ghadamon (1.9.0)
+[3.951s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.979s] -- Looking for OGRE_Paging...
+[4.001s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.002s] -- Looking for OGRE_Terrain...
+[4.023s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.025s] -- Looking for OGRE_Property...
+[4.043s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.044s] -- Looking for OGRE_RTShaderSystem...
+[4.064s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.064s] -- Looking for OGRE_Volume...
+[4.083s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.083s] -- Looking for OGRE_Overlay...
+[4.099s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.496s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.504s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.507s] -- Searching for dependencies of ignition-transport8
+[4.547s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.571s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.585s] -- Checking for module 'libzmq >= 4'
+[4.618s] --   Found libzmq , version 4.3.4
+[4.721s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.736s] -- Checking for module 'uuid'
+[4.777s] --   Found uuid, version 2.37.2
+[4.873s] -- Found UUID: TRUE  
+[4.881s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.881s] -- Searching for dependencies of ignition-msgs5
+[4.925s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.946s] -- Checking for module 'tinyxml2'
+[4.987s] --   Found tinyxml2, version 9.0.0
+[5.093s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.098s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.101s] -- Searching for dependencies of ignition-common3
+[5.102s] -- Looking for dlfcn.h - found
+[5.104s] -- Looking for libdl - found
+[5.106s] -- Found DL: TRUE  
+[5.140s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[5.143s] -- Searching for <ignition-common3> component [graphics]
+[5.146s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.148s] -- Searching for dependencies of ignition-common3-graphics
+[5.149s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.155s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.156s] -- Searching for dependencies of ignition-fuel_tools4
+[5.380s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.408s] -- Checking for module 'jsoncpp'
+[5.452s] --   Found jsoncpp, version 1.9.5
+[5.554s] -- Found JSONCPP: TRUE  
+[5.571s] -- Checking for module 'libzip'
+[5.611s] --   Found libzip, version 1.7.3
+[5.715s] -- Found ZIP: TRUE  
+[5.716s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.716s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.717s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.727s] -- Gazebo version: 11.10
+[5.728s] -- Checking for module 'tbb'
+[5.769s] --   Found tbb, version 2021.5.0
+[5.884s] -- Found gazebo_plugins: 3.9.0 (/opt/ros/humble/share/gazebo_plugins/cmake)
+[6.035s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.265s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.268s] -- Added test 'lint_cmake' to check CMake code style
+[6.269s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.273s] -- Added test 'xmllint' to check XML markup files
+[6.276s] -- Configuring done
+[6.289s] -- Generating done
+[6.297s] -- Build files have been written to: /home/utilisateur/slam/test/build/robot_simulation
+[6.342s] Invoked command in '/home/utilisateur/slam/test/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_simulation -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/test/install/robot_simulation
+[6.344s] Invoking command in '/home/utilisateur/slam/test/build/robot_simulation': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/test/build/robot_simulation -- -j4 -l4
+[6.471s] Invoked command in '/home/utilisateur/slam/test/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --build /home/utilisateur/slam/test/build/robot_simulation -- -j4 -l4
+[6.493s] Invoking command in '/home/utilisateur/slam/test/build/robot_simulation': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --install /home/utilisateur/slam/test/build/robot_simulation
+[6.514s] -- Install configuration: ""
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/launch
+[6.515s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/launch/navigation.launch.py
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/launch/gazebo.launch.py
+[6.515s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/launch/slam.launch.py
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/launch/gazebo_headless.launch.py
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/worlds
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/worlds/minimal.world
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/worlds/empty.world
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/worlds/test_world.world
+[6.515s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/config
+[6.516s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/config/sim.rviz
+[6.516s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/config/mapper_params_online_async.yaml
+[6.516s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/ament_index/resource_index/package_run_dependencies/robot_simulation
+[6.516s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/ament_index/resource_index/parent_prefix_path/robot_simulation
+[6.516s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.sh
+[6.520s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.dsv
+[6.522s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/environment/path.sh
+[6.522s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/environment/path.dsv
+[6.523s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/local_setup.bash
+[6.523s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/local_setup.sh
+[6.523s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/local_setup.zsh
+[6.524s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/local_setup.dsv
+[6.524s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/package.dsv
+[6.524s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/ament_index/resource_index/packages/robot_simulation
+[6.524s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig.cmake
+[6.524s] -- Installing: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig-version.cmake
+[6.524s] -- Up-to-date: /home/utilisateur/slam/test/install/robot_simulation/share/robot_simulation/package.xml
+[6.528s] Invoked command in '/home/utilisateur/slam/test/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=/home/utilisateur/slam/test/install/robot_description:/home/utilisateur/slam/test/install/robot_simulation:/home/utilisateur/slam/test/install/robot_navigation2:/opt/ros/humble /usr/bin/cmake --install /home/utilisateur/slam/test/build/robot_simulation

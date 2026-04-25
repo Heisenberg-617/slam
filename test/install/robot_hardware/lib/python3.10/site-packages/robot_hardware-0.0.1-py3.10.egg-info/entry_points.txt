@@ -1,0 +1,7 @@
+[console_scripts]
+cmd_vel_to_arduino = robot_hardware.cmd_vel_to_arduino:main
+encoder_odometry = robot_hardware.encoder_odometry:main
+fake_hardware = robot_hardware.fake_hardware:main
+odom_simulator = robot_hardware.odom_simulator:main
+serial_monitor = robot_hardware.serial_monitor:main
+

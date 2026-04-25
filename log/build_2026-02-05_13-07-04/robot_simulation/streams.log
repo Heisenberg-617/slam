@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/utilisateur/slam/build/robot_simulation': CMAKE_PREFIX_PATH=/home/utilisateur/slam/install/robot_description:/home/utilisateur/slam/install/robot_simulation:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_simulation -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/install/robot_simulation
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.203s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.341s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.349s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.522s] -- Detecting CXX compile features
+[0.523s] -- Detecting CXX compile features - done
+[0.527s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.013s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.077s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.082s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.101s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.206s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.384s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.459s] -- Looking for pthread.h
+[1.607s] -- Looking for pthread.h - found
+[1.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.785s] -- Found Threads: TRUE  
+[1.904s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.906s] -- Checking for module 'bullet>=2.82'
+[1.936s] --   Found bullet, version 3.05
+[2.202s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.274s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.300s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.340s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.356s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.363s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.374s] -- Searching for dependencies of ignition-math6
+[2.375s] -- Looking for OGRE...
+[2.375s] -- OGRE_PREFIX_WATCH changed.
+[2.384s] -- Checking for module 'OGRE'
+[2.414s] --   Found OGRE, version 1.9.0
+[2.515s] -- Found Ogre Ghadamon (1.9.0)
+[2.548s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.596s] -- Looking for OGRE_Paging...
+[2.620s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.620s] -- Looking for OGRE_Terrain...
+[2.650s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.650s] -- Looking for OGRE_Property...
+[2.672s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.677s] -- Looking for OGRE_RTShaderSystem...
+[2.699s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.699s] -- Looking for OGRE_Volume...
+[2.733s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.734s] -- Looking for OGRE_Overlay...
+[2.759s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.029s] Invoked command in '/home/utilisateur/slam/build/robot_simulation' returned '-2': CMAKE_PREFIX_PATH=/home/utilisateur/slam/install/robot_description:/home/utilisateur/slam/install/robot_simulation:/opt/ros/humble /usr/bin/cmake /home/utilisateur/slam/test/src/robot_simulation -DCMAKE_INSTALL_PREFIX=/home/utilisateur/slam/install/robot_simulation

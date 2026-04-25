@@ -1,0 +1,34 @@
+[0.701s] Invoking command in '/home/utilisateur/slam/test/src/robot_hardware': AMENT_PREFIX_PATH=/home/utilisateur/slam/install/robot_description CMAKE_PREFIX_PATH=/home/utilisateur/slam/install/robot_description PYTHONPATH=/home/utilisateur/slam/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_hardware build --build-base /home/utilisateur/slam/build/robot_hardware/build install --record /home/utilisateur/slam/build/robot_hardware/install.log --single-version-externally-managed install_data
+[0.953s] running egg_info
+[0.954s] writing ../../../build/robot_hardware/robot_hardware.egg-info/PKG-INFO
+[0.954s] writing dependency_links to ../../../build/robot_hardware/robot_hardware.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../../build/robot_hardware/robot_hardware.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../../build/robot_hardware/robot_hardware.egg-info/requires.txt
+[0.955s] writing top-level names to ../../../build/robot_hardware/robot_hardware.egg-info/top_level.txt
+[0.957s] reading manifest file '../../../build/robot_hardware/robot_hardware.egg-info/SOURCES.txt'
+[0.959s] writing manifest file '../../../build/robot_hardware/robot_hardware.egg-info/SOURCES.txt'
+[0.959s] running build
+[0.959s] running build_py
+[0.960s] copying robot_hardware/serial_monitor.py -> /home/utilisateur/slam/build/robot_hardware/build/lib/robot_hardware
+[0.961s] copying robot_hardware/fake_hardware.py -> /home/utilisateur/slam/build/robot_hardware/build/lib/robot_hardware
+[0.962s] running install
+[0.962s] running install_lib
+[0.963s] copying /home/utilisateur/slam/build/robot_hardware/build/lib/robot_hardware/serial_monitor.py -> /home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages/robot_hardware
+[0.964s] copying /home/utilisateur/slam/build/robot_hardware/build/lib/robot_hardware/fake_hardware.py -> /home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages/robot_hardware
+[0.965s] byte-compiling /home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages/robot_hardware/serial_monitor.py to serial_monitor.cpython-310.pyc
+[0.966s] byte-compiling /home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages/robot_hardware/fake_hardware.py to fake_hardware.cpython-310.pyc
+[0.967s] running install_data
+[0.968s] copying launch/real_robot_nav.launch.py -> /home/utilisateur/slam/install/robot_hardware/share/robot_hardware/launch
+[0.968s] copying launch/test_nav.launch.py -> /home/utilisateur/slam/install/robot_hardware/share/robot_hardware/launch
+[0.969s] creating /home/utilisateur/slam/install/robot_hardware/share/robot_hardware/rviz
+[0.969s] copying rviz/real_nav.rviz -> /home/utilisateur/slam/install/robot_hardware/share/robot_hardware/rviz
+[0.969s] running install_egg_info
+[0.971s] removing '/home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages/robot_hardware-0.0.1-py3.10.egg-info' (and everything under it)
+[0.972s] Copying ../../../build/robot_hardware/robot_hardware.egg-info to /home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages/robot_hardware-0.0.1-py3.10.egg-info
+[0.973s] running install_scripts
+[0.998s] Installing cmd_vel_to_arduino script to /home/utilisateur/slam/install/robot_hardware/lib/robot_hardware
+[0.998s] Installing encoder_odometry script to /home/utilisateur/slam/install/robot_hardware/lib/robot_hardware
+[0.998s] Installing fake_hardware script to /home/utilisateur/slam/install/robot_hardware/lib/robot_hardware
+[0.999s] Installing serial_monitor script to /home/utilisateur/slam/install/robot_hardware/lib/robot_hardware
+[0.999s] writing list of installed files to '/home/utilisateur/slam/build/robot_hardware/install.log'
+[1.025s] Invoked command in '/home/utilisateur/slam/test/src/robot_hardware' returned '0': AMENT_PREFIX_PATH=/home/utilisateur/slam/install/robot_description CMAKE_PREFIX_PATH=/home/utilisateur/slam/install/robot_description PYTHONPATH=/home/utilisateur/slam/build/robot_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utilisateur/slam/install/robot_hardware/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robot_hardware build --build-base /home/utilisateur/slam/build/robot_hardware/build install --record /home/utilisateur/slam/build/robot_hardware/install.log --single-version-externally-managed install_data

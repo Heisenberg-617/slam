@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: robot-hardware
+Version: 0.0.1
+Summary: Real robot hardware bridge: cmd_vel to Arduino and encoder-based odometry
+Home-page: UNKNOWN
+Maintainer: utilisateur
+Maintainer-email: utilisateur@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

@@ -1,0 +1,1 @@
+/home/utilisateur/slam/test/build/robot_simulation/ament_cmake_environment_hooks/local_setup.zsh

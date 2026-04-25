@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/mohamed/test/build/robot_description': /usr/bin/cmake --build /home/mohamed/test/build/robot_description -- -j4 -l4
+[0.069s] Invoked command in '/home/mohamed/test/build/robot_description' returned '0': /usr/bin/cmake --build /home/mohamed/test/build/robot_description -- -j4 -l4
+[0.082s] Invoking command in '/home/mohamed/test/build/robot_description': /usr/bin/cmake --install /home/mohamed/test/build/robot_description
+[0.102s] -- Install configuration: ""
+[0.102s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/urdf
+[0.102s] -- Installing: /home/mohamed/test/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[0.102s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/urdf/robot.gazebo.xacro
+[0.102s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/launch
+[0.102s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/launch/display.launch.py
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/config
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/config/display.rviz
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.103s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/environment/path.sh
+[0.104s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/environment/path.dsv
+[0.104s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/local_setup.bash
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/local_setup.sh
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/local_setup.zsh
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/local_setup.dsv
+[0.105s] -- Installing: /home/mohamed/test/install/robot_description/share/robot_description/package.dsv
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.105s] -- Up-to-date: /home/mohamed/test/install/robot_description/share/robot_description/package.xml
+[0.111s] Invoked command in '/home/mohamed/test/build/robot_description' returned '0': /usr/bin/cmake --install /home/mohamed/test/build/robot_description
